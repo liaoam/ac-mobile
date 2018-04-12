@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SubmentoplastyVC.swift
 //  ACMobile
 //
 //  Created by Alex Liao on 4/3/18.
@@ -7,22 +7,31 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewController: UIViewController {
+class SubmentoplastyVC: UIViewController {
 
+    @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var alertButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Call side menu method
         sideMenus()
         
-        // Do any additional setup after loading the view.
+        // Load webView
+        // Define URL as webpage to load, define request as a URLRequest for url
+        // Call webView to load request
+        let url = URL(string: "https://appearancecenterapp.com/submentoplasty")
+        let request = URLRequest(url: url!)
+        
+        webView.load(request)
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     //Side Menu method using SWRevealViewController framework
@@ -43,9 +52,4 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    
-
-
-
 }

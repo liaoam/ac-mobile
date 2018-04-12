@@ -8,11 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		2AC0E63E20742C0200EC5BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E63D20742C0200EC5BC4 /* AppDelegate.swift */; };
-		2AC0E64020742C0200EC5BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E63F20742C0200EC5BC4 /* ViewController.swift */; };
 		2AC0E64320742C0200EC5BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC0E64120742C0200EC5BC4 /* Main.storyboard */; };
-		2AC0E64520742C0200EC5BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC0E64420742C0200EC5BC4 /* Assets.xcassets */; };
 		2AC0E64820742C0200EC5BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC0E64620742C0200EC5BC4 /* LaunchScreen.storyboard */; };
 		2AC0E65320742C0200EC5BC4 /* ACMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E65220742C0200EC5BC4 /* ACMobileTests.swift */; };
+		2AC0E6602074314100EC5BC4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E65E2074314100EC5BC4 /* SWRevealViewController.m */; };
+		2AC0E6632074321D00EC5BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E6622074321D00EC5BC4 /* ViewController.swift */; };
+		2AC0E66520743C8200EC5BC4 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E66420743C8200EC5BC4 /* AboutVC.swift */; };
+		2AC0E66720743F7600EC5BC4 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E66620743F7600EC5BC4 /* SplashVC.swift */; };
+		2AC145A82074447B00D65E7C /* FaceliftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145A72074447B00D65E7C /* FaceliftVC.swift */; };
+		2AC145AA20749D8C00D65E7C /* NeckLiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145A920749D8C00D65E7C /* NeckLiftVC.swift */; };
+		2AC145AC20749FCA00D65E7C /* MiniFaceLiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145AB20749FCA00D65E7C /* MiniFaceLiftVC.swift */; };
+		2AC145AE2074A14400D65E7C /* RhinoplastyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145AD2074A14400D65E7C /* RhinoplastyVC.swift */; };
+		2AC145B02074A25500D65E7C /* EyelidSurgeryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145AF2074A25500D65E7C /* EyelidSurgeryVC.swift */; };
+		2AC145B22074A39600D65E7C /* BrowLiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145B12074A39600D65E7C /* BrowLiftVC.swift */; };
+		2AC145B42074A5A900D65E7C /* SubmentoplastyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145B32074A5A900D65E7C /* SubmentoplastyVC.swift */; };
+		2AC145B62074AC2500D65E7C /* ChinAugmentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145B52074AC2500D65E7C /* ChinAugmentationVC.swift */; };
+		2AC145B82074ACC700D65E7C /* FacialVolumeSurgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145B72074ACC700D65E7C /* FacialVolumeSurgVC.swift */; };
+		2AC145BA2074AD8B00D65E7C /* CorrectiveSurgicalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145B92074AD8B00D65E7C /* CorrectiveSurgicalVC.swift */; };
+		2AC145BD2075164E00D65E7C /* InjectableTreatmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145BC2075164E00D65E7C /* InjectableTreatmentsVC.swift */; };
+		2AC145BF2075173A00D65E7C /* SkinTreatmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145BE2075173A00D65E7C /* SkinTreatmentsVC.swift */; };
+		2AC145C12075180E00D65E7C /* EyelidRejuvenationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145C02075180E00D65E7C /* EyelidRejuvenationVC.swift */; };
+		2AC145C320751DEB00D65E7C /* FacialVolumeNonsurgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145C220751DEB00D65E7C /* FacialVolumeNonsurgVC.swift */; };
+		2AC145C520751EB700D65E7C /* HandRejuvenationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145C420751EB700D65E7C /* HandRejuvenationVC.swift */; };
+		2AC145C7207C187C00D65E7C /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145C6207C187C00D65E7C /* ContactVC.swift */; };
+		2AC145CA207C1CAE00D65E7C /* EpionceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145C9207C1CAE00D65E7C /* EpionceVC.swift */; };
+		2AC145CC207C1DFA00D65E7C /* SkinMedicaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145CB207C1DFA00D65E7C /* SkinMedicaVC.swift */; };
+		2AC145CE207C285900D65E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC145CD207C285900D65E7C /* Assets.xcassets */; };
+		2AC145D1207C302800D65E7C /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145D0207C302800D65E7C /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +50,38 @@
 /* Begin PBXFileReference section */
 		2AC0E63A20742C0200EC5BC4 /* ACMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC0E63D20742C0200EC5BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AC0E63F20742C0200EC5BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AC0E64220742C0200EC5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AC0E64420742C0200EC5BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC0E64720742C0200EC5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC0E64920742C0200EC5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC0E64E20742C0200EC5BC4 /* ACMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC0E65220742C0200EC5BC4 /* ACMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACMobileTests.swift; sourceTree = "<group>"; };
 		2AC0E65420742C0200EC5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC0E65D2074314000EC5BC4 /* ACMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		2AC0E65E2074314100EC5BC4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2AC0E65F2074314100EC5BC4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2AC0E6622074321D00EC5BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AC0E66420743C8200EC5BC4 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		2AC0E66620743F7600EC5BC4 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		2AC145A72074447B00D65E7C /* FaceliftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceliftVC.swift; sourceTree = "<group>"; };
+		2AC145A920749D8C00D65E7C /* NeckLiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeckLiftVC.swift; sourceTree = "<group>"; };
+		2AC145AB20749FCA00D65E7C /* MiniFaceLiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniFaceLiftVC.swift; sourceTree = "<group>"; };
+		2AC145AD2074A14400D65E7C /* RhinoplastyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhinoplastyVC.swift; sourceTree = "<group>"; };
+		2AC145AF2074A25500D65E7C /* EyelidSurgeryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyelidSurgeryVC.swift; sourceTree = "<group>"; };
+		2AC145B12074A39600D65E7C /* BrowLiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowLiftVC.swift; sourceTree = "<group>"; };
+		2AC145B32074A5A900D65E7C /* SubmentoplastyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmentoplastyVC.swift; sourceTree = "<group>"; };
+		2AC145B52074AC2500D65E7C /* ChinAugmentationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinAugmentationVC.swift; sourceTree = "<group>"; };
+		2AC145B72074ACC700D65E7C /* FacialVolumeSurgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialVolumeSurgVC.swift; sourceTree = "<group>"; };
+		2AC145B92074AD8B00D65E7C /* CorrectiveSurgicalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectiveSurgicalVC.swift; sourceTree = "<group>"; };
+		2AC145BC2075164E00D65E7C /* InjectableTreatmentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectableTreatmentsVC.swift; sourceTree = "<group>"; };
+		2AC145BE2075173A00D65E7C /* SkinTreatmentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTreatmentsVC.swift; sourceTree = "<group>"; };
+		2AC145C02075180E00D65E7C /* EyelidRejuvenationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyelidRejuvenationVC.swift; sourceTree = "<group>"; };
+		2AC145C220751DEB00D65E7C /* FacialVolumeNonsurgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialVolumeNonsurgVC.swift; sourceTree = "<group>"; };
+		2AC145C420751EB700D65E7C /* HandRejuvenationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRejuvenationVC.swift; sourceTree = "<group>"; };
+		2AC145C6207C187C00D65E7C /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		2AC145C9207C1CAE00D65E7C /* EpionceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpionceVC.swift; sourceTree = "<group>"; };
+		2AC145CB207C1DFA00D65E7C /* SkinMedicaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinMedicaVC.swift; sourceTree = "<group>"; };
+		2AC145CD207C285900D65E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC145D0207C302800D65E7C /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +124,21 @@
 			isa = PBXGroup;
 			children = (
 				2AC0E63D20742C0200EC5BC4 /* AppDelegate.swift */,
-				2AC0E63F20742C0200EC5BC4 /* ViewController.swift */,
 				2AC0E64120742C0200EC5BC4 /* Main.storyboard */,
-				2AC0E64420742C0200EC5BC4 /* Assets.xcassets */,
+				2AC0E65F2074314100EC5BC4 /* SWRevealViewController.h */,
+				2AC0E65E2074314100EC5BC4 /* SWRevealViewController.m */,
 				2AC0E64620742C0200EC5BC4 /* LaunchScreen.storyboard */,
 				2AC0E64920742C0200EC5BC4 /* Info.plist */,
+				2AC0E65D2074314000EC5BC4 /* ACMobile-Bridging-Header.h */,
+				2AC0E6622074321D00EC5BC4 /* ViewController.swift */,
+				2AC0E66420743C8200EC5BC4 /* AboutVC.swift */,
+				2AC145C6207C187C00D65E7C /* ContactVC.swift */,
+				2AC0E66620743F7600EC5BC4 /* SplashVC.swift */,
+				2AC145CF207C2FF000D65E7C /* Views */,
+				2AC145C8207C1C6E00D65E7C /* PartnerWebsites */,
+				2AC145BB2075161E00D65E7C /* NonsurgicalProcedures */,
+				2AC145A62074444C00D65E7C /* SurgicalProcedures */,
+				2AC145CD207C285900D65E7C /* Assets.xcassets */,
 			);
 			path = ACMobile;
 			sourceTree = "<group>";
@@ -94,6 +150,52 @@
 				2AC0E65420742C0200EC5BC4 /* Info.plist */,
 			);
 			path = ACMobileTests;
+			sourceTree = "<group>";
+		};
+		2AC145A62074444C00D65E7C /* SurgicalProcedures */ = {
+			isa = PBXGroup;
+			children = (
+				2AC145A72074447B00D65E7C /* FaceliftVC.swift */,
+				2AC145A920749D8C00D65E7C /* NeckLiftVC.swift */,
+				2AC145AB20749FCA00D65E7C /* MiniFaceLiftVC.swift */,
+				2AC145AD2074A14400D65E7C /* RhinoplastyVC.swift */,
+				2AC145AF2074A25500D65E7C /* EyelidSurgeryVC.swift */,
+				2AC145B12074A39600D65E7C /* BrowLiftVC.swift */,
+				2AC145B32074A5A900D65E7C /* SubmentoplastyVC.swift */,
+				2AC145B52074AC2500D65E7C /* ChinAugmentationVC.swift */,
+				2AC145B72074ACC700D65E7C /* FacialVolumeSurgVC.swift */,
+				2AC145B92074AD8B00D65E7C /* CorrectiveSurgicalVC.swift */,
+			);
+			path = SurgicalProcedures;
+			sourceTree = "<group>";
+		};
+		2AC145BB2075161E00D65E7C /* NonsurgicalProcedures */ = {
+			isa = PBXGroup;
+			children = (
+				2AC145BC2075164E00D65E7C /* InjectableTreatmentsVC.swift */,
+				2AC145BE2075173A00D65E7C /* SkinTreatmentsVC.swift */,
+				2AC145C02075180E00D65E7C /* EyelidRejuvenationVC.swift */,
+				2AC145C220751DEB00D65E7C /* FacialVolumeNonsurgVC.swift */,
+				2AC145C420751EB700D65E7C /* HandRejuvenationVC.swift */,
+			);
+			path = NonsurgicalProcedures;
+			sourceTree = "<group>";
+		};
+		2AC145C8207C1C6E00D65E7C /* PartnerWebsites */ = {
+			isa = PBXGroup;
+			children = (
+				2AC145C9207C1CAE00D65E7C /* EpionceVC.swift */,
+				2AC145CB207C1DFA00D65E7C /* SkinMedicaVC.swift */,
+			);
+			path = PartnerWebsites;
+			sourceTree = "<group>";
+		};
+		2AC145CF207C2FF000D65E7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AC145D0207C302800D65E7C /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +248,7 @@
 				TargetAttributes = {
 					2AC0E63920742C0200EC5BC4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					2AC0E64D20742C0200EC5BC4 = {
@@ -180,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC0E64820742C0200EC5BC4 /* LaunchScreen.storyboard in Resources */,
-				2AC0E64520742C0200EC5BC4 /* Assets.xcassets in Resources */,
+				2AC145CE207C285900D65E7C /* Assets.xcassets in Resources */,
 				2AC0E64320742C0200EC5BC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +302,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC0E64020742C0200EC5BC4 /* ViewController.swift in Sources */,
+				2AC145C12075180E00D65E7C /* EyelidRejuvenationVC.swift in Sources */,
+				2AC145C520751EB700D65E7C /* HandRejuvenationVC.swift in Sources */,
+				2AC145BA2074AD8B00D65E7C /* CorrectiveSurgicalVC.swift in Sources */,
+				2AC145BF2075173A00D65E7C /* SkinTreatmentsVC.swift in Sources */,
+				2AC145B62074AC2500D65E7C /* ChinAugmentationVC.swift in Sources */,
+				2AC145B02074A25500D65E7C /* EyelidSurgeryVC.swift in Sources */,
+				2AC145CC207C1DFA00D65E7C /* SkinMedicaVC.swift in Sources */,
+				2AC145CA207C1CAE00D65E7C /* EpionceVC.swift in Sources */,
+				2AC0E66520743C8200EC5BC4 /* AboutVC.swift in Sources */,
+				2AC0E66720743F7600EC5BC4 /* SplashVC.swift in Sources */,
+				2AC0E6632074321D00EC5BC4 /* ViewController.swift in Sources */,
+				2AC145B42074A5A900D65E7C /* SubmentoplastyVC.swift in Sources */,
+				2AC145C320751DEB00D65E7C /* FacialVolumeNonsurgVC.swift in Sources */,
+				2AC145AC20749FCA00D65E7C /* MiniFaceLiftVC.swift in Sources */,
+				2AC145C7207C187C00D65E7C /* ContactVC.swift in Sources */,
+				2AC145BD2075164E00D65E7C /* InjectableTreatmentsVC.swift in Sources */,
+				2AC145B82074ACC700D65E7C /* FacialVolumeSurgVC.swift in Sources */,
 				2AC0E63E20742C0200EC5BC4 /* AppDelegate.swift in Sources */,
+				2AC145A82074447B00D65E7C /* FaceliftVC.swift in Sources */,
+				2AC145AA20749D8C00D65E7C /* NeckLiftVC.swift in Sources */,
+				2AC145AE2074A14400D65E7C /* RhinoplastyVC.swift in Sources */,
+				2AC0E6602074314100EC5BC4 /* SWRevealViewController.m in Sources */,
+				2AC145B22074A39600D65E7C /* BrowLiftVC.swift in Sources */,
+				2AC145D1207C302800D65E7C /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,11 +478,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ACMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexliao.ACMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ACMobile/ACMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,11 +495,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ACMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexliao.ACMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ACMobile/ACMobile-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

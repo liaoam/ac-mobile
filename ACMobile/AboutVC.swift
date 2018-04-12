@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AboutVC.swift
 //  ACMobile
 //
 //  Created by Alex Liao on 4/3/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AboutVC: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var alertButton: UIBarButtonItem!
@@ -43,9 +43,15 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    
 
+    /*
+    // MARK: - Navigation
 
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }

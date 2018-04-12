@@ -16,8 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.tintColor = UIColor(red: 26.0/255.0, green: 83.0/255.0, blue: 150.0/255.0, alpha: 1.0)
+        navigationBarAppearace.barTintColor = UIColor(red: 26.0/255.0, green: 83.0/255.0, blue: 150.0/255.0, alpha: 1.0)
+        
         return true
     }
+    
+    /*
+    // Taken from: https://www.natashatherobot.com/ios-change-uitableviewcell-selection-color-app-wide/
+    // Intended to change selection color of UITableViewCell
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+        
+        var tableCellAppearance = UITableViewCell.appearance()
+        tableCellAppearance.selectedBackgroundView = UIColor.black
+        
+        return true
+    } */
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -40,6 +58,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+
 
 
 }
