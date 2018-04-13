@@ -35,6 +35,8 @@
 		2AC145CC207C1DFA00D65E7C /* SkinMedicaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145CB207C1DFA00D65E7C /* SkinMedicaVC.swift */; };
 		2AC145CE207C285900D65E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC145CD207C285900D65E7C /* Assets.xcassets */; };
 		2AC145D1207C302800D65E7C /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145D0207C302800D65E7C /* BorderButton.swift */; };
+		2AC145D52080188300D65E7C /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145D42080188300D65E7C /* PhotoGalleryVC.swift */; };
+		2AC145D720801DA400D65E7C /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC145D620801DA400D65E7C /* AboutAppVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		2AC145CB207C1DFA00D65E7C /* SkinMedicaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinMedicaVC.swift; sourceTree = "<group>"; };
 		2AC145CD207C285900D65E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC145D0207C302800D65E7C /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		2AC145D42080188300D65E7C /* PhotoGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryVC.swift; sourceTree = "<group>"; };
+		2AC145D620801DA400D65E7C /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +136,9 @@
 				2AC0E65D2074314000EC5BC4 /* ACMobile-Bridging-Header.h */,
 				2AC0E6622074321D00EC5BC4 /* ViewController.swift */,
 				2AC0E66420743C8200EC5BC4 /* AboutVC.swift */,
+				2AC145D620801DA400D65E7C /* AboutAppVC.swift */,
 				2AC145C6207C187C00D65E7C /* ContactVC.swift */,
+				2AC145D42080188300D65E7C /* PhotoGalleryVC.swift */,
 				2AC0E66620743F7600EC5BC4 /* SplashVC.swift */,
 				2AC145CF207C2FF000D65E7C /* Views */,
 				2AC145C8207C1C6E00D65E7C /* PartnerWebsites */,
@@ -306,6 +312,7 @@
 				2AC145C520751EB700D65E7C /* HandRejuvenationVC.swift in Sources */,
 				2AC145BA2074AD8B00D65E7C /* CorrectiveSurgicalVC.swift in Sources */,
 				2AC145BF2075173A00D65E7C /* SkinTreatmentsVC.swift in Sources */,
+				2AC145D720801DA400D65E7C /* AboutAppVC.swift in Sources */,
 				2AC145B62074AC2500D65E7C /* ChinAugmentationVC.swift in Sources */,
 				2AC145B02074A25500D65E7C /* EyelidSurgeryVC.swift in Sources */,
 				2AC145CC207C1DFA00D65E7C /* SkinMedicaVC.swift in Sources */,
@@ -319,6 +326,7 @@
 				2AC145C7207C187C00D65E7C /* ContactVC.swift in Sources */,
 				2AC145BD2075164E00D65E7C /* InjectableTreatmentsVC.swift in Sources */,
 				2AC145B82074ACC700D65E7C /* FacialVolumeSurgVC.swift in Sources */,
+				2AC145D52080188300D65E7C /* PhotoGalleryVC.swift in Sources */,
 				2AC0E63E20742C0200EC5BC4 /* AppDelegate.swift in Sources */,
 				2AC145A82074447B00D65E7C /* FaceliftVC.swift in Sources */,
 				2AC145AA20749D8C00D65E7C /* NeckLiftVC.swift in Sources */,
@@ -480,7 +488,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NK57ST362X;
 				INFOPLIST_FILE = ACMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexliao.ACMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,7 +507,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NK57ST362X;
 				INFOPLIST_FILE = ACMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexliao.ACMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
