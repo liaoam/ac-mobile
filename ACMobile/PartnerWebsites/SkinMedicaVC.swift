@@ -2,8 +2,9 @@
 //  SkinMedicaVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/9/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "SkinMedica" VC - partner website
 //
 
 import UIKit

@@ -2,27 +2,38 @@
 //  ViewController.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/3/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile Home Screen VC
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var alertButton: UIBarButtonItem!
+    @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Call side menu method
         sideMenus()
         
-        // Do any additional setup after loading the view.
+        // Load webView
+        // Define URL as webpage to load, define request as a URLRequest for url
+        // Call webView to load request
+        let url = URL(string: "https://appearancecenterapp.com/")
+        let request = URLRequest(url: url!)
+        
+        webView.load(request)
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     //Side Menu method using SWRevealViewController framework
@@ -43,9 +54,4 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    
-
-
-
 }

@@ -2,8 +2,9 @@
 //  ChinAugmentationVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/3/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "Chin Augmentation" VC - surg proc
 //
 
 import UIKit

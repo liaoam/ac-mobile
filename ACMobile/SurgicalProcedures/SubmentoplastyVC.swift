@@ -2,8 +2,9 @@
 //  SubmentoplastyVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/3/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "Submentoplasty" VC - surg proc
 //
 
 import UIKit
@@ -14,6 +15,7 @@ class SubmentoplastyVC: UIViewController {
     @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var alertButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

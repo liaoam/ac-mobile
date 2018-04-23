@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/3/18.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//
 //
 
 import UIKit
@@ -17,32 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        // Sets navigation bar color across the entire app
         var navigationBarAppearace = UINavigationBar.appearance()
         navigationBarAppearace.tintColor = UIColor(red: 26.0/255.0, green: 83.0/255.0, blue: 150.0/255.0, alpha: 1.0)
         navigationBarAppearace.barTintColor = UIColor(red: 26.0/255.0, green: 83.0/255.0, blue: 150.0/255.0, alpha: 1.0)
         
+        // Related to US-16, the code below sets the font, size, and color for the navigation bar title
         let navigationFont = UIFont(name: "AvenirNext-Regular", size: 18)
         let navigationFontAttributes = [NSAttributedStringKey.font : navigationFont, NSAttributedStringKey.foregroundColor: UIColor.white]
-        // let navigationFontColor = [NSAttributedStringKey.foregroundColor: UIColor.white]
         UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
-        // UINavigationBar.appearance().titleTextAttributes = navigationFontColor
         
         return true
     }
     
-    /*
-    // Taken from: https://www.natashatherobot.com/ios-change-uitableviewcell-selection-color-app-wide/
-    // Intended to change selection color of UITableViewCell
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        
-        var tableCellAppearance = UITableViewCell.appearance()
-        tableCellAppearance.selectedBackgroundView = UIColor.black
-        
-        return true
-    } */
-    
-    
-
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

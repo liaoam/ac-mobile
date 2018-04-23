@@ -2,8 +2,9 @@
 //  EpionceVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/9/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "Epionce" VC - partner website
 //
 
 import UIKit
@@ -14,6 +15,7 @@ class EpionceVC: UIViewController {
     @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var alertButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

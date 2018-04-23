@@ -2,8 +2,9 @@
 //  AboutVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/3/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "About the Center" VC
 //
 
 import UIKit
@@ -18,6 +19,7 @@ class AboutVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Call side menu method
         sideMenus()
         
         // Load webView

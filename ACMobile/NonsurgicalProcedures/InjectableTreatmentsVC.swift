@@ -2,8 +2,9 @@
 //  InjectableTreatmentsVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/4/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "Injectable Treatments" VC - nonsurg proc
 //
 
 import UIKit

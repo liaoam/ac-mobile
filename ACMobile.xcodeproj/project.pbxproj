@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2AC0E63E20742C0200EC5BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E63D20742C0200EC5BC4 /* AppDelegate.swift */; };
 		2AC0E64320742C0200EC5BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC0E64120742C0200EC5BC4 /* Main.storyboard */; };
-		2AC0E64820742C0200EC5BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC0E64620742C0200EC5BC4 /* LaunchScreen.storyboard */; };
 		2AC0E65320742C0200EC5BC4 /* ACMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E65220742C0200EC5BC4 /* ACMobileTests.swift */; };
 		2AC0E6602074314100EC5BC4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E65E2074314100EC5BC4 /* SWRevealViewController.m */; };
 		2AC0E6632074321D00EC5BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E6622074321D00EC5BC4 /* ViewController.swift */; };
@@ -53,7 +52,6 @@
 		2AC0E63A20742C0200EC5BC4 /* ACMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC0E63D20742C0200EC5BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AC0E64220742C0200EC5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AC0E64720742C0200EC5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC0E64920742C0200EC5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC0E64E20742C0200EC5BC4 /* ACMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC0E65220742C0200EC5BC4 /* ACMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACMobileTests.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				2AC0E64120742C0200EC5BC4 /* Main.storyboard */,
 				2AC0E65F2074314100EC5BC4 /* SWRevealViewController.h */,
 				2AC0E65E2074314100EC5BC4 /* SWRevealViewController.m */,
-				2AC0E64620742C0200EC5BC4 /* LaunchScreen.storyboard */,
 				2AC0E64920742C0200EC5BC4 /* Info.plist */,
 				2AC0E65D2074314000EC5BC4 /* ACMobile-Bridging-Header.h */,
 				2AC0E6622074321D00EC5BC4 /* ViewController.swift */,
@@ -288,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC0E64820742C0200EC5BC4 /* LaunchScreen.storyboard in Resources */,
 				2AC145CE207C285900D65E7C /* Assets.xcassets in Resources */,
 				2AC0E64320742C0200EC5BC4 /* Main.storyboard in Resources */,
 			);
@@ -362,14 +358,6 @@
 				2AC0E64220742C0200EC5BC4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2AC0E64620742C0200EC5BC4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AC0E64720742C0200EC5BC4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

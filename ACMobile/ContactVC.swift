@@ -2,8 +2,9 @@
 //  ContactVC.swift
 //  ACMobile
 //
-//  Created by Alex Liao on 4/9/18.
+//  Created by Alex Liao.
 //  Copyright © 2018 Alex Liao. All rights reserved.
+//  AC Mobile "Contact" VC
 //
 
 import UIKit
@@ -33,7 +34,6 @@ class ContactVC: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     //Side Menu method using SWRevealViewController framework
